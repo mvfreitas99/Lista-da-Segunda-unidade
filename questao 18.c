@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int converter(float x){
+float converter(float x){
 	float tc = 5*(x-32)/9;
 	return tc;
 }
